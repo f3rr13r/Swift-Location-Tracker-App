@@ -12,6 +12,8 @@
 		4A65A0BE1D5897E400ECD97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A65A0BC1D5897E400ECD97D /* Main.storyboard */; };
 		4A65A0C01D5897E400ECD97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A65A0BF1D5897E400ECD97D /* Assets.xcassets */; };
 		4A65A0C31D5897E400ECD97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A65A0C11D5897E400ECD97D /* LaunchScreen.storyboard */; };
+		4A65A0CC1D58989400ECD97D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A65A0CB1D58989400ECD97D /* CoreLocation.framework */; };
+		4A65A0CE1D589E1900ECD97D /* map-black-and-white.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A65A0CD1D589E1900ECD97D /* map-black-and-white.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4A65A0BF1D5897E400ECD97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A65A0C21D5897E400ECD97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A65A0C41D5897E400ECD97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A65A0CB1D58989400ECD97D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A65A0CD1D589E1900ECD97D /* map-black-and-white.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-black-and-white.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A65A0CC1D58989400ECD97D /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				4A65A0B71D5897E400ECD97D /* Location Aware */,
 				4A65A0B61D5897E400ECD97D /* Products */,
+				4A65A0CA1D58989400ECD97D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +64,19 @@
 				4A65A0BA1D5897E400ECD97D /* ViewController.swift */,
 				4A65A0BC1D5897E400ECD97D /* Main.storyboard */,
 				4A65A0BF1D5897E400ECD97D /* Assets.xcassets */,
+				4A65A0CD1D589E1900ECD97D /* map-black-and-white.jpeg */,
 				4A65A0C11D5897E400ECD97D /* LaunchScreen.storyboard */,
 				4A65A0C41D5897E400ECD97D /* Info.plist */,
 			);
 			path = "Location Aware";
+			sourceTree = "<group>";
+		};
+		4A65A0CA1D58989400ECD97D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A65A0CB1D58989400ECD97D /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			files = (
 				4A65A0C31D5897E400ECD97D /* LaunchScreen.storyboard in Resources */,
 				4A65A0C01D5897E400ECD97D /* Assets.xcassets in Resources */,
+				4A65A0CE1D589E1900ECD97D /* map-black-and-white.jpeg in Resources */,
 				4A65A0BE1D5897E400ECD97D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
